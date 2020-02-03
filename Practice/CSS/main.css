@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.header {
+  background-color: gray;
+  text-align: center;
+}
+
+.subHeader p {
+  color: white;
+  font-family: courier;
+}
+
+.header h1 {
+  color: white;
+  font-family: courier;
+  font-size: 45pt;
+}
+
+.mainBody {
+  background-color: #E59866;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bodyLeft {
+  color: white;
+  background-color: #2E4053;
+  width: 75%;
+}
+
+.bodyRight {
+  color: grey;
+  background-color: #884EA0;
+  width: 25%;
+}
+
+.pictureBox img {
+  background-color: blue;
+  max-width: 100px;
+  height: auto;
+}
+
+.footer {
+  color: #554;
+  text-align: center;
+  font-family: courier;
+}
